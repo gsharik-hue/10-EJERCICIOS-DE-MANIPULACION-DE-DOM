@@ -1,0 +1,17 @@
+.cuadro {
+width: 150px;           
+height: 52px; 
+display: flex;
+background-color: #d5e1e9;
+color: rgb(25, 18, 18);
+border-radius: 5px;
+font-size: 14px;
+align-items: center;
+justify-content: center
+                
+}
+
+.cuadro:hover {
+    background-color: rgb(112, 243, 245);
+
+}
