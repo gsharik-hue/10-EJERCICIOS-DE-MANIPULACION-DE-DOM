@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.botones {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #a00dcc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#vistaPrevia {
+    padding: 50px;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tema-claro {
+    background-color: rgba(254, 244, 244, 0.903);
+    color: black;
+}
+
+.tema-oscuro {
+    background-color: #222;
+    color: white;
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #4c4cff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3333cc;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}
+
+.exito {
+    color: green;
+}

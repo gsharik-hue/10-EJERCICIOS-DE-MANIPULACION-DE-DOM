@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.tarea {
+    margin: 12px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4c4cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3333cc;
+}
